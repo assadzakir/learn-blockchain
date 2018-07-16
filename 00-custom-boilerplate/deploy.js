@@ -4,8 +4,8 @@ const Web3 = require("web3");
 const { interface, bytecode } = require("./compile");
 
 const provider = new HDWallerProvider(
-  "armor share excess bid pioneer air fall bench style color rapid about",
-  "https://rinkeby.infura.io/h4zbZkgFeFbE6Im0rwP3"
+  "secret text",
+  "rinkeby url"
 );
 
 const web3 = new Web3(provider);
